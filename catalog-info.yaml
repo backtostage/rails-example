@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rails-example
+  description: An example of a Rails application.
+  annotations:
+    github.com/project-slug: angeliski/rails-example
+spec:
+  type: service
+  owner: angeliski
+  lifecycle: experimental
